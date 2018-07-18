@@ -1,0 +1,6 @@
+{
+  "name": "app",
+  "dependencies": {
+    "a": "1.0.0"
+  }
+}

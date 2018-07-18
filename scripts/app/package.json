@@ -1,0 +1,7 @@
+{
+  "name": "app",
+  "scripts": {
+    "test": "echo 'Testing..'",
+    "custom": "echo 'Running custom script'"
+  }
+}

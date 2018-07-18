@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+const {uploadPackages} = require('../tools');
+
+uploadPackages([
+  {name: 'lib', version: '1.1.1'},
+  {name: 'lib', version: '2.2.2'},
+  {name: 'a', version: '1.0.0', dependencies: {lib: '1.1.1'}},
+  {name: 'b', version: '1.0.0', dependencies: {lib: '1.1.1'}},
+  {name: 'c', version: '1.0.0', dependencies: {lib: '2.2.2'}},
+  {name: 'd', version: '1.0.0', dependencies: {lib: '2.2.2'}}
+]);

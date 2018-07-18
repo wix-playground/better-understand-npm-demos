@@ -1,0 +1,9 @@
+{
+  "name": "app",
+  "dependencies": {
+    "lib": "1.0.0"
+  },
+  "scripts": {
+    "s": "x"
+  }
+}

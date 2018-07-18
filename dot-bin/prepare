@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+const {uploadPackagesFromLocations} = require('../tools');
+
+uploadPackagesFromLocations([
+  `${__dirname}/lib`
+]);

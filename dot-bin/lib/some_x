@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if [ $# == 0 ]; then
+  echo "This is some_x script"
+else
+  echo "This is some_x script, called with parameters: '$*'"
+fi

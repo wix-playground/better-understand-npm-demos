@@ -1,0 +1,16 @@
+#!/usr/bin/env node
+
+const {uploadPackages} = require('../tools');
+
+uploadPackages([
+  {name: 'lib', version: '1.1.1'},
+  {name: 'a', version: '1.0.0', dependencies: {lib: '*'}}
+]);
+
+console.log('\nThe first part of the prepare script finished. Start the demo and press `enter` to run the second part');
+process.stdin.once('data', () => {
+  uploadPackages([
+    {name: 'lib', version: '2.2.2'}
+  ], false);
+  process.exit();
+});

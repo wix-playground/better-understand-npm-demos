@@ -1,0 +1,13 @@
+{
+  "name": "app",
+  "scripts": {
+    "preinstall": "echo --",
+    "postinstall": "echo \"postinstall of the app\npwd: `pwd`\n--\""
+  },
+  "dependencies": {
+    "a": "1.0.0",
+    "b": "1.0.0",
+    "c": "1.0.0",
+    "lib": "2.0.0"
+  }
+}
