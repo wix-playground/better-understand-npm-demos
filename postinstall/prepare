@@ -41,7 +41,7 @@ uploadPackages([
     name: 'c',
     version: '1.0.0',
     scripts: {
-      postinstall: 'echo "postinstall of the package: b\\npwd: `pwd`\\n--"'
+      postinstall: 'echo "postinstall of the package: c\\npwd: `pwd`\\n--"'
     },
     dependencies: {
       lib: '2.0.0'
