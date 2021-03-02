@@ -1,5 +1,7 @@
 {
   "name": "lib",
   "version": "1.0.0",
-  "bin": {"x": "./some_x"}
+  "bin": {
+    "x": "./some_x"
+  }
 }
